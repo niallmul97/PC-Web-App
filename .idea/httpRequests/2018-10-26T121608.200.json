@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "5bc9f1333ca706eb90a238cd",
+    "title": "Nvidia GTX 1070Ti",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1700MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bc9f1933ca706eb90a238ce",
+    "title": "AMD RX 580",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1257MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1d6bd513fead3cc046e1",
+    "title": "GTX 1060",
+    "type": "gpu",
+    "vram": "6GB",
+    "speed": "1506MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1d91d513fead3cc046e2",
+    "title": "GTX 1080",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1600MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1db0d513fead3cc046e3",
+    "title": "GTX 1080Ti",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1480MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1e45d513fead3cc046e4",
+    "title": "GTX 1050Ti",
+    "type": "gpu",
+    "vram": "4GB",
+    "speed": "1290MHz",
+    "__v": 0
+  }
+]

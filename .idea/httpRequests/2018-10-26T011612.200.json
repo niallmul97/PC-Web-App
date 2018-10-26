@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "5bc9f0cf3ca706eb90a238cc",
+    "title": "Amd Ryzen R5 2600",
+    "type": "cpu",
+    "speed": "3.9GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1c6dd513fead3cc046de",
+    "title": "Amd Ryzen R5 2600x",
+    "type": "cpu",
+    "speed": "3.9GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1ca2d513fead3cc046df",
+    "title": "Amd Ryzen R5 2700x",
+    "type": "cpu",
+    "speed": "3.9GHz",
+    "cores": 8,
+    "__v": 0
+  }
+]

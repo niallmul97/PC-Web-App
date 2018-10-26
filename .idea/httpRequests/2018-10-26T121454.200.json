@@ -1,0 +1,8 @@
+{
+  "message": "Cast to ObjectId failed for value \"GTX 1060\" at path \"_id\" for model \"Parts\"",
+  "name": "CastError",
+  "stringValue": "\"GTX 1060\"",
+  "kind": "ObjectId",
+  "value": "GTX 1060",
+  "path": "_id"
+}

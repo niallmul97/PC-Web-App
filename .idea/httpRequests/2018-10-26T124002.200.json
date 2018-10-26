@@ -1,0 +1,190 @@
+[
+  {
+    "_id": "5bc9f0483ca706eb90a238cb",
+    "title": "Intel i7 8700k",
+    "type": "cpu",
+    "speed": "3.7GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bc9f0cf3ca706eb90a238cc",
+    "title": "Amd Ryzen R5 2600",
+    "type": "cpu",
+    "speed": "3.9GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bc9f1333ca706eb90a238cd",
+    "title": "Nvidia GTX 1070Ti",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1700MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bc9f1933ca706eb90a238ce",
+    "title": "AMD RX 580",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1257MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1bf4d513fead3cc046dc",
+    "title": "Intel i3 8350k",
+    "type": "cpu",
+    "speed": "4.0GHz",
+    "cores": 4,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1c33d513fead3cc046dd",
+    "title": "Intel i5 8600k",
+    "type": "cpu",
+    "speed": "3.7GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1c6dd513fead3cc046de",
+    "title": "Amd Ryzen R5 2600x",
+    "type": "cpu",
+    "speed": "3.9GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1ca2d513fead3cc046df",
+    "title": "Amd Ryzen R5 2700x",
+    "type": "cpu",
+    "speed": "3.9GHz",
+    "cores": 8,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1d6bd513fead3cc046e1",
+    "title": "GTX 1060",
+    "type": "gpu",
+    "vram": "6GB",
+    "speed": "1506MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1d91d513fead3cc046e2",
+    "title": "GTX 1080",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1600MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1db0d513fead3cc046e3",
+    "title": "GTX 1080Ti",
+    "type": "gpu",
+    "vram": "8GB",
+    "speed": "1480MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1e45d513fead3cc046e4",
+    "title": "GTX 1050Ti",
+    "type": "gpu",
+    "vram": "4GB",
+    "speed": "1290MHz",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1e79d513fead3cc046e5",
+    "title": "8GB DDR4",
+    "type": "ram",
+    "storage": "8GB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1e87d513fead3cc046e6",
+    "title": "16GB DDR4",
+    "type": "ram",
+    "storage": "16GB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1e92d513fead3cc046e7",
+    "title": "32GB DDR4",
+    "type": "ram",
+    "storage": "32GB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1eb9d513fead3cc046e8",
+    "title": "250GB SSD",
+    "type": "SSD",
+    "storage": "250GB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1ec7d513fead3cc046e9",
+    "title": "500GB SSD",
+    "type": "SSD",
+    "storage": "500GB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1ed3d513fead3cc046ea",
+    "title": "1TB SSD",
+    "type": "SSD",
+    "storage": "1TB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1eded513fead3cc046eb",
+    "title": "1TB HDD",
+    "type": "HDD",
+    "storage": "1TB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1ee7d513fead3cc046ec",
+    "title": "2TB HDD",
+    "type": "HDD",
+    "storage": "2TB",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1f06d513fead3cc046ed",
+    "title": "Windows 10",
+    "type": "os",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1f0ed513fead3cc046ee",
+    "title": "Windows 8",
+    "type": "os",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1f14d513fead3cc046ef",
+    "title": "Windows 7",
+    "type": "os",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1f20d513fead3cc046f0",
+    "title": "Linux: Ubuntu",
+    "type": "os",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1f39bc7848e8804c15c5",
+    "title": "Linux: Mint",
+    "type": "os",
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1f43bc7848e8804c15c6",
+    "title": "Linux: Arch",
+    "type": "os",
+    "__v": 0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "5bc9f0483ca706eb90a238cb",
+    "title": "Intel i7 8700k",
+    "type": "cpu",
+    "speed": "3.7GHz",
+    "cores": 6,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1bf4d513fead3cc046dc",
+    "title": "Intel i3 8350k",
+    "type": "cpu",
+    "speed": "4.0GHz",
+    "cores": 4,
+    "__v": 0
+  },
+  {
+    "_id": "5bcf1c33d513fead3cc046dd",
+    "title": "Intel i5 8600k",
+    "type": "cpu",
+    "speed": "3.7GHz",
+    "cores": 6,
+    "__v": 0
+  }
+]
