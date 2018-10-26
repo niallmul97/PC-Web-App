@@ -1,3 +1,179 @@
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "Super cool pc 123", "cost": 1000, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-10-26T025704.200.json
+
+###
+
+PUT http://localhost:3000/builds/5bd31bf41630f5099cbe1114/parts/5bcf1c33d513fead3cc046dd
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "Super cool pc 123", "cost": 1000, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-10-26T025649.200.json
+
+###
+
+PUT http://localhost:3000/builds/5bd31bf41630f5099cbe1114/updateCPU/5bcf1c33d513fead3cc046dd
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "Super cool pc 123", "cost": 1000, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-10-26T025626.404.html
+
+###
+
+GET http://localhost:3000/builds
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "Super cool pc 123", "cost": 1000, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-10-26T025152.200.json
+
+###
+
+POST http://localhost:3000/builds
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "Super cool pc 123", "cost": 1000, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-10-26T025148.200.json
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "Super cool pc 123", "cost": 1000, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-10-26T025138.500.json
+
+###
+
+GET http://localhost:3000/user
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password345"}
+
+<> 2018-10-26T023954.200.json
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password345"}
+
+<> 2018-10-26T023950.200.json
+
+###
+
+GET http://localhost:3000/user
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T023708.200.json
+
+###
+
+GET http://localhost:3000/users
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T023701.200.html
+
+###
+
+GET http://localhost:3000/users
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T023652.200.html
+
+###
+
+GET http://localhost:3000/parts/fuzzySearch/8
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T020502.200.json
+
+###
+
+GET http://localhost:3000/parts/fuzzySearch/amd
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T020322.200.json
+
+###
+
+GET http://localhost:3000/parts/fuzzySearch/intel
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T020242.200.json
+
+###
+
+GET http://localhost:3000/parts/fuzzySearch/amd
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T020229.200.json
+
+###
+
+GET http://localhost:3000/parts/fuzzySearch/a
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "sampleuser@gmail.com", "password": "password123"}
+
+<> 2018-10-26T020218.200.json
+
+###
+
 GET http://localhost:3000/parts/fuzzySearch/A
 Content-Type: application/json
 Cache-Control: no-cache
@@ -349,176 +525,6 @@ Cache-Control: no-cache
 Accept: */*
 
 {"email": "sampleuser@gmail.com", "password": "password123"}
-
-###
-
-GET http://localhost:3000/parts/fuzzySearch/AMD
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-###
-
-GET http://localhost:3000/parts/fuzzySearch/AMD
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-###
-
-GET http://localhost:3000/parts/fuzzySearch/AMD
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-###
-
-GET http://localhost:3000/parts/fuzzySearch/AMD
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-26T121823.200.json
-
-###
-
-GET http://localhost:3000/parts/fuzzySearch/AMD
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-26T121801.404.html
-
-###
-
-GET http://localhost:3000/parts/AMD
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-26T121658.200.json
-
-###
-
-GET http://localhost:3000/parts/findByType/gpu
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-26T121608.200.json
-
-###
-
-GET http://localhost:3000/parts/GTX%201060
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-26T121454.200.json
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064751.200.json
-
-###
-
-PUT http://localhost:3000/user/5bcf43a6873fec35514febe2/newemail@123
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064744.200.json
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064459.200.json
-
-###
-
-PUT http://localhost:3000/user/5bcf43a6873fec35514febe2/123email.com
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064453.200.json
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2/123email.com
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064447.404.html
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064426.200.json
-
-###
-
-PUT http://localhost:3000/user/5bcf43a6873fec35514febe2/email@email,com
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064419.200.json
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"email": "sampleuser@gmail.com", "password": "password123"}
-
-<> 2018-10-23T064404.200.json
 
 ###
 
