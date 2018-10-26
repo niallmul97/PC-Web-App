@@ -23,6 +23,7 @@ function getByValue(array, id){
     return result? result[0]: null;
 }
 
+//Method that creates a new user and saves it to the database
 router.addUser = (req, res) =>{
     res.setHeader('Content-Type', 'application/json');
 
@@ -39,6 +40,7 @@ router.addUser = (req, res) =>{
     });
 }
 
+//Method that deletes a user from the database
 router.deleteUser = (req, res) =>{
     User.findByIdAndRemove({"_id": req.params.id}, function (err) {
         if (err)
@@ -48,6 +50,7 @@ router.deleteUser = (req, res) =>{
     });
 }
 
+//Method that finds all users
 router.findAll = (req, res)=> {
 
     res.setHeader('Content-type', 'application/json');
@@ -60,6 +63,7 @@ router.findAll = (req, res)=> {
     });
 }
 
+//Method that finds one particular user by id
 router.findOne = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -72,6 +76,7 @@ router.findOne = (req, res) =>{
     });
 }
 
+//Method that finds all builds created by a particular user
 router.findUserBuilds = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -84,6 +89,7 @@ router.findUserBuilds = (req, res) =>{
     });
 }
 
+//Method that allows the user to update their email
 router.updateEmail = (req, res) =>{
     res.setHeader('Content-Type', 'application/json');
     User.findById(req.params.userId, function (err, user) {

@@ -1,9 +1,9 @@
 let mongoose = require('mongoose');
 
 let BuildSchema = new mongoose.Schema({
-    title: String,
+    title: {type: String, default: "Unnamed Build"},
     cost: Number,
-    upvotes: Number,
+    upvotes: {type: Number, default: 0},
     userId: {type: String, default: "Anonymous"},
     cpu: String,
     cpuId: String,

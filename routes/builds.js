@@ -23,12 +23,14 @@ function getByValue(array, id){
     return result? result[0]: null;
 }
 
+//Function that finds all the votes from all the builds
 function getTotalVotes(array) {
     let totalVotes = 0;
     array.forEach(function(obj) { totalVotes += obj.upvotes; });
     return totalVotes;
 }
 
+//Method that finds all of the builds
 router.findAll = (req, res)=> {
 
     res.setHeader('Content-type', 'application/json');
@@ -40,6 +42,7 @@ router.findAll = (req, res)=> {
     });
 }
 
+//Method that finds one particular user based on an id
 router.findOne = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -52,6 +55,9 @@ router.findOne = (req, res) =>{
     });
 }
 
+//Method that creates a build and adds it to the database, each build will contain a user ID to indicate which user
+//the build belongs to. If the field is left empty, the user will default to anonymous.
+//Each particular component as well as their id can be added upon creation or else updated later.
 router.addBuild = (req, res) =>{
     res.setHeader('Content-Type', 'application/json');
 
@@ -60,10 +66,15 @@ router.addBuild = (req, res) =>{
     build.title = req.body.title;
     build.cost = req.body.cost;
     build.cpu = req.body.cpu;
+    build.cpuId = req.body.cpuId;
     build.gpu = req.body.gpu;
+    build.gpuId = req.body.gpuId;
     build.ram = req.body.ram;
+    build.ramId = req.body.ramId;
     build.storage = req.body.storage;
+    build.storageId = req.body.storageId;
     build.os = req.body.os;
+    build.osId = req.body.osId;
     build.userId = req.body.userId;
 
     build.save(function (err) {
@@ -74,6 +85,7 @@ router.addBuild = (req, res) =>{
     });
 }
 
+//Method that enables users to upvote builds
 router.incrementUpvotes = (req, res) =>{
     Builds.findById({"_id": req.params.id}, function (err, build) {
             if (err)
@@ -93,6 +105,7 @@ router.incrementUpvotes = (req, res) =>{
     )
 }
 
+//Method that allows a user to delete a build
 router.deleteBuild = (req, res) =>{
     Builds.findByIdAndRemove({"_id": req.params.id}, function (err) {
         if (err)
@@ -102,6 +115,7 @@ router.deleteBuild = (req, res) =>{
     });
 }
 
+//Method that gets the total upvotes of all builds
 router.findTotalUpvotes = (req, res) => {
     Builds.find(function (err, builds) {
         if (err)
@@ -111,6 +125,8 @@ router.findTotalUpvotes = (req, res) => {
     })
 }
 
+//Method that allows users to search for builds by cost, the search will return any build that is less than or equal
+//the cost entered.
 router.findByCost = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -123,6 +139,7 @@ router.findByCost = (req, res) =>{
     });
 }
 
+//Method that searches for all builds by a particular user.
 router.findByUser = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -135,6 +152,7 @@ router.findByUser = (req, res) =>{
     });
 }
 
+//Method that allows a user to search all builds that include a particular cpu
 router.findByCPU = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -147,6 +165,7 @@ router.findByCPU = (req, res) =>{
     });
 }
 
+//Method that allows a user to search all builds that include a particular gpu
 router.findByGPU = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -159,6 +178,7 @@ router.findByGPU = (req, res) =>{
     });
 }
 
+//Method that allows a user to search all builds that include particular ram
 router.findByRAM = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -171,6 +191,7 @@ router.findByRAM = (req, res) =>{
     });
 }
 
+//Method that allows a user to search all builds that include a particular storage
 router.findByStorage = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -183,6 +204,7 @@ router.findByStorage = (req, res) =>{
     });
 }
 
+//Method that allows a user to search all builds that include a particular operating system
 router.findByOs = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -195,6 +217,12 @@ router.findByOs = (req, res) =>{
     });
 }
 
+//Each of these update methods will search for a particular build by an id,
+//then will search through the list of all parts again by id, if the correct part is found, the part id will be set to
+//correct part id, and the name will be set to the correct part name.
+//When builds are printed out, the ids for each particular part are not printed for aesthetic purposes, despite being stored.
+
+//Method that allows a user to update the cpu of a particular build
 router.updateCPU = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -227,6 +255,7 @@ router.updateCPU = (req, res) =>{
     })
 }
 
+//Method that allows a user to update the gpu of a particular build
 router.updateGPU = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -259,6 +288,7 @@ router.updateGPU = (req, res) =>{
     })
 }
 
+//Method that allows a user to update the ram of a particular build
 router.updateRAM = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -291,6 +321,7 @@ router.updateRAM = (req, res) =>{
     })
 }
 
+//Method that allows a user to update the storage of a particular build
 router.updateStorage = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -323,6 +354,7 @@ router.updateStorage = (req, res) =>{
     })
 }
 
+//Method that allows a user to update the os of a particular build
 router.updateOS = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -355,6 +387,7 @@ router.updateOS = (req, res) =>{
     })
 }
 
+//Method that allows a user to update the cost of a particular build
 router.updateCost = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -376,6 +409,7 @@ router.updateCost = (req, res) =>{
     )
 }
 
+//Method that allows a user to update the title of a particular build
 router.updateTitle = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');

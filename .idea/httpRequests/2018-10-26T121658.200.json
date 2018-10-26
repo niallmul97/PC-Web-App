@@ -1,8 +1,0 @@
-{
-  "message": "Cast to ObjectId failed for value \"AMD\" at path \"_id\" for model \"Parts\"",
-  "name": "CastError",
-  "stringValue": "\"AMD\"",
-  "kind": "ObjectId",
-  "value": "AMD",
-  "path": "_id"
-}

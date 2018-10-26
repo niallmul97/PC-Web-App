@@ -23,6 +23,7 @@ function getByValue(array, id){
     return result? result[0]: null;
 }
 
+//Method that finds all parts in the database
 router.findAll = (req, res)=> {
 
     res.setHeader('Content-type', 'application/json');
@@ -35,6 +36,7 @@ router.findAll = (req, res)=> {
     });
 }
 
+//Method that finds one particular part by id
 router.findOne = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -47,6 +49,7 @@ router.findOne = (req, res) =>{
     });
 }
 
+//Method that fuzzy searches through all the parts, i.e. searching for "Amd" will result in all CPUs and GPUs
 router.fuzzySearch = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
@@ -65,6 +68,7 @@ router.fuzzySearch = (req, res) =>{
     });
 }
 
+//Method that adds a part to the database, will not add a part if it already exists
 router.addPart = (req, res) =>{
     res.setHeader('Content-Type', 'application/json');
 
@@ -96,6 +100,7 @@ router.addPart = (req, res) =>{
     });
 }
 
+//Method to deletes a part from the database by using a particular id
 router.deletePart = (req, res) =>{
     Parts.findByIdAndRemove({"_id": req.params.id}, function (err) {
         if (err)
@@ -105,6 +110,7 @@ router.deletePart = (req, res) =>{
     });
 }
 
+//Method that searches for all parts of a particular type i.e. search by gpus or cpus
 router.findByType = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
