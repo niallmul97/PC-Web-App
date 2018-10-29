@@ -218,9 +218,8 @@ router.findByOs = (req, res) =>{
 }
 
 //Each of these update methods will search for a particular build by an id,
-//then will search through the list of all parts again by id, if the correct part is found, the part id will be set to
-//correct part id, and the name will be set to the correct part name.
-//When builds are printed out, the ids for each particular part are not printed for aesthetic purposes, despite being stored.
+// //then will search through the list of all parts again by id, if the correct part is found, the part id will be set to
+// //correct part id, and the name will be set to the correct part name.
 
 //Method that allows a user to update the cpu of a particular build
 router.updateCPU = (req, res) =>{

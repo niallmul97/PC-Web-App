@@ -81,7 +81,7 @@ router.findUserBuilds = (req, res) =>{
 
     res.setHeader('Content-Type', 'application/json');
 
-    Builds.find({"userId": req.body.userId}, function (err, builds) {
+    Builds.find({"userId": req.params.userId}, function (err, builds) {
         if(err)
             res.send(err);
         else
