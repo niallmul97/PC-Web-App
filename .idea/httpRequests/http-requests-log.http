@@ -1,3 +1,36 @@
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T010738.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T010731.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T010708.200.json
+
+###
+
 GET http://localhost:3000/builds/findHighest
 Content-Type: application/json
 Cache-Control: no-cache
@@ -508,39 +541,6 @@ Accept: */*
 {"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
 
 <> 2018-10-28T104958.200.json
-
-###
-
-DELETE http://localhost:3000/builds/5bd63b4eb4e1f93938872cb4
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104832.200.html
-
-###
-
-GET http://localhost:3000/builds/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104816.200.json
-
-###
-
-GET http://localhost:3000/builds/5bd31bf41630f5099cbe1114
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104757.200.json
 
 ###
 
