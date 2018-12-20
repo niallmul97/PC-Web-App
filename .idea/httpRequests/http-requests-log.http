@@ -1,3 +1,329 @@
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T125119.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T125013.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T125006.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T124901.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T124849.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T124819.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T124806.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T124723.200.json
+
+###
+
+GET http://localhost:3000/builds/findHighest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-20T124707.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-19T080356.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-19T042409.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0483ca706eb90a238cb"}
+
+<> 2018-12-19T042052.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0483ca706eb90a238cb"}
+
+<> 2018-12-19T042045.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bcf1c6dd513fead3cc046de"}
+
+<> 2018-12-19T042003.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bcf1c6dd513fead3cc046de"}
+
+<> 2018-12-19T041721.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bcf1c6dd513fead3cc046de"}
+
+<> 2018-12-19T041718.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T041336.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T041315.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T041242.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T041237.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T041153.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "xd", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "hello", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T040856.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "hello", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T040748.200.json
+
+###
+
+GET http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "hello", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T040725.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "hello", "cost": 1500, "userId": "5bcf43a6873fec35514febe2", "cpuId": "5bc9f0cf3ca706eb90a238cc"}
+
+<> 2018-12-19T040716.200.json
+
+###
+
+POST http://localhost:3000/builds/
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "hello", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-19T031720.200.json
+
+###
+
+PUT http://localhost:3000/builds/5bd63d9fb8a7e0335cb513e9/partsCPU/5bc9f0483ca706eb90a238cb
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-18T111632.200.json
+
+###
+
+GET http://localhost:3000/builds
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
+
+<> 2018-12-18T111533.200.json
+
+###
+
 GET http://localhost:3000/parts/fuzzySearch/amd
 Content-Type: application/json
 Cache-Control: no-cache
@@ -215,336 +541,6 @@ Accept: */*
 {"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
 
 <> 2018-10-28T104757.200.json
-
-###
-
-PUT http://localhost:3000/builds/5bd31bf41630f5099cbe1114/partsGPU/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104750.200.json
-
-###
-
-GET http://localhost:3000/parts/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104737.200.json
-
-###
-
-GET http://localhost:3000/parts/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104736.200.json
-
-###
-
-PUT http://localhost:3000/builds/5bd31bf41630f5099cbe1114/parts/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104727.404.html
-
-###
-
-GET http://localhost:3000/builds/5bd31bf41630f5099cbe1114/parts/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104724.404.html
-
-###
-
-GET http://localhost:3000/builds/5bd31bf41630f5099cbe1114/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104703.200.json
-
-###
-
-PUT http://localhost:3000/builds/5bd31bf41630f5099cbe1114/parts/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104645.404.html
-
-###
-
-GET http://localhost:3000/builds/5bd63b4eb4e1f93938872cb4/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104425.200.json
-
-###
-
-PUT http://localhost:3000/builds/5bd63b4eb4e1f93938872cb4/parts/5bcf1db0d513fead3cc046e3
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104417.200.json
-
-###
-
-GET http://localhost:3000/user/userBuild/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104247.200.json
-
-###
-
-GET http://localhost:3000/builds
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104226.200.json
-
-###
-
-POST http://localhost:3000/builds
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104222.200.json
-
-###
-
-POST http://localhost:3000/parts/5bc9f1933ca706eb90a238ce
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104215.404.html
-
-###
-
-GET http://localhost:3000/parts/5bc9f1933ca706eb90a238ce
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104115.200.json
-
-###
-
-GET http://localhost:3000/parts
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104101.200.json
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T104019.200.json
-
-###
-
-GET http://localhost:3000/user/userBuild/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103950.200.json
-
-###
-
-GET http://localhost:3000/builds
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103930.200.json
-
-###
-
-GET http://localhost:3000/user/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103820.200.json
-
-###
-
-GET http://localhost:3000/user
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103807.200.json
-
-###
-
-GET http://localhost:3000/builds/
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103321.200.json
-
-###
-
-DELETE http://localhost:3000/builds/5bd638c419570037045a37c5
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103316.200.html
-
-###
-
-GET http://localhost:3000/builds
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103301.200.json
-
-###
-
-GET http://localhost:3000/user/userBuild/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103243.200.json
-
-###
-
-GET http://localhost:3000/%20user/userBuild/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103237.404.html
-
-###
-
-GET http://localhost:3000/%20user/userBuild/5bcf43a6873fec35514febe2
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103200.404.html
-
-###
-
-GET http://localhost:3000/builds
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103137.200.json
-
-###
-
-POST http://localhost:3000/builds
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103132.200.json
-
-###
-
-GET http://localhost:3000/parts/5bc9f0483ca706eb90a238cb
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103049.200.json
-
-###
-
-GET http://localhost:3000/parts
-Content-Type: application/json
-Cache-Control: no-cache
-Accept: */*
-
-{"title": "gaming pc", "cost": 1500, "userId": "5bcf43a6873fec35514febe2"}
-
-<> 2018-10-28T103028.200.json
 
 ###
 

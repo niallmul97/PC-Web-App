@@ -38,7 +38,8 @@ router.findAll = (req, res)=> {
     Builds.find(function(err, builds){
         if(err)
             res.send(err)
-        res.send(JSON.stringify(builds,null,5));
+        else
+            res.send(JSON.stringify(builds,null,5));
     });
 }
 
@@ -55,6 +56,25 @@ router.findOne = (req, res) =>{
     });
 }
 
+router.findHighestUpvotes = (req, res) =>{
+
+    res.setHeader('Content-Type', 'application/json');
+
+    Builds.find(function (err, builds) {
+        if(err)
+            res.send(err);
+        else{
+            highestBuild = builds[0]
+            for(let i = 0; i < builds.length; i+=1) {
+                if (builds[i].upvotes > highestBuild.upvotes) {
+                    highestBuild = builds[i]
+                }
+            }
+            res.send(JSON.stringify(highestBuild,null,5));
+        }
+    });
+}
+
 //Method that creates a build and adds it to the database, each build will contain a user ID to indicate which user
 //the build belongs to. If the field is left empty, the user will default to anonymous.
 //Each particular component as well as their id can be added upon creation or else updated later.
@@ -65,8 +85,7 @@ router.addBuild = (req, res) =>{
 
     build.title = req.body.title;
     build.cost = req.body.cost;
-    build.cpu = req.body.cpu;
-    build.cpuId = req.body.cpuId;
+    build.cpuId = req.body.cpuId
     build.gpu = req.body.gpu;
     build.gpuId = req.body.gpuId;
     build.ram = req.body.ram;

@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 const builds = require("./routes/builds");
 const parts = require("./routes/parts");
 const user = require("./routes/user");
+const cors = require("cors");
 
 var app = express();
 
@@ -22,12 +23,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use(cors())
 app.post('/builds', builds.addBuild);
 app.post('/parts', parts.addPart);
 app.post('/user', user.addUser);
 app.get('/builds', builds.findAll);
 app.get('/parts', parts.findAll);
 app.get('/user', user.findAll);
+app.get('/builds/findHighest', builds.findHighestUpvotes);
 app.get('/builds/findByCost/:cost', builds.findByCost);
 app.get('/builds/findByCPU/:cpu', builds.findByCPU);
 app.get('/builds/findByGPU/:gpu', builds.findByGPU);
